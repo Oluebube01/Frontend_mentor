@@ -1,2 +1,3 @@
 # Frontend_mentor
-Frontend-challenges
+All my project solutions to frontend challenges will be kept here!!.
+let's code!!!
