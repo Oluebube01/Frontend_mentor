@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*global styling*/
+body{
+    background: black;
+    color: white;
+    text-align: center;
+}
+.main{
+    background: rgba(109, 133, 186, 0.305);
+    width: 360px;
+    padding: 8px;
+    border-radius: 18px;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.one{
+    margin-top: 20px;
+}
+.you{
+    background: rgba(109, 133, 186, 0.141);
+    font-size: 18px;
+    color: rgb(255, 145, 0);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px 80px 20px 80px;
+    padding: 5px 0px 5px 0px;
+}
+.thank{
+    font-size: 2rempx;
+}
+.appreciate{
+    font-size: 01rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(230, 234, 240, 0.472);
+}

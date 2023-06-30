@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* global styling */
+body{
+    background: rgba(6, 38, 70, 0.985);
+    color: white;
+}
+.main{
+    overflow: hidden;
+    background:rgba(10, 55, 99, 0.639) ;
+    width: 348px;
+    border-radius: 20px;
+    margin: 50px 100px 0px 70px;
+}
+
+/*local styling */
+.diamond{
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px 20px 20px 24px;
+}
+.equi{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 20px 10px 20px;
+}
+.two{
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 10px 20px 10px 20px;
+    color: rgba(198, 217, 234, 0.521);
+    line-height: 25px;
+}
+.three{
+    margin: 10px 20px 10px 20px;
+}
+.eth{
+    color: aqua;
+    word-spacing: 10px;
+}
+.days{
+    float: right;
+    color: rgba(198, 217, 234, 0.521);
+    padding-left: 5px;
+    margin-right: 20px;
+}
+hr{
+    color: rgba(198, 217, 234, 0.521);
+    margin: 0px 30px 0px 30px ;
+    font-weight: light;
+}
+/*end styles*/
+.avatar{
+    width: 36px;
+    border: 0.3px solid white;
+    border-radius: 20px;
+    margin: 20px 20px 0 20px;
+}
+.creat{
+    color: rgba(198, 217, 234, 0.521);
+    margin: 0px 0px 30px 0px;
+    display: inline-block;
+}
+@media screen and (min-width: 900px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* global styling */
+    body{
+        background: rgba(6, 38, 70, 0.985);
+        color: white;
+    }
+    .main{
+        overflow: hidden;
+        background:rgba(10, 55, 99, 0.639) ;
+        width: 348px;
+        border-radius: 20px;
+        margin: 50px 100px 0px 500px;
+    }
+    
+    /*local styling */
+    .diamond{
+        width: 300px;
+        border-radius: 10px;
+        margin: 20px 20px 20px 24px;
+    }
+    .equi{
+        font-size: 24px;
+        font-weight: bold;
+        margin: 10px 20px 10px 20px;
+    }
+    .two{
+        font-size: 18px;
+        font-weight: lighter;
+        margin: 10px 20px 10px 20px;
+        color: rgba(198, 217, 234, 0.521);
+        line-height: 25px;
+    }
+    .three{
+        margin: 10px 20px 10px 20px;
+    }
+    .eth{
+        color: aqua;
+        word-spacing: 10px;
+    }
+    .days{
+        float: right;
+        color: rgba(198, 217, 234, 0.521);
+        padding-left: 5px;
+        margin-right: 20px;
+    }
+    hr{
+        color: rgba(198, 217, 234, 0.521);
+        margin: 0px 30px 0px 30px ;
+        font-weight: light;
+    }
+    /*end styles*/
+    .avatar{
+        width: 36px;
+        border: 0.3px solid white;
+        border-radius: 20px;
+        margin: 20px 20px 0 20px;
+    }
+    .creat{
+        color: rgba(198, 217, 234, 0.521);
+        margin: 0px 0px 30px 0px;
+        display: inline-block;
+    }
+}
