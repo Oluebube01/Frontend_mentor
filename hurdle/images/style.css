@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+body{
+    background: rgba(84, 16, 174, 0.955) url(./bg-desktop.svg);
+    color: white;
+    background-repeat: no-repeat;
+}
+/* container styling*/
+.container{
+    display: flex;
+    padding-left: 40px;
+}
+header{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+header .image {
+    width: 100px;
+}
+/*large image styling*/
+div .large-img{
+    position: relative;
+    display: inline-flexbox;
+}
+
+/* text container styling*/
+.text-container{
+    text-align:left;
+    color: white;
+    padding: 50px;
+    width: 483px;
+    float: right;
+    display: inline;
+    position: relative;
+    line-height: 45px;
+}
+.text-container .one {
+    font-size: 38px;
+    padding-bottom: 15px;
+}
+.text-container .two{
+    font-size: 15px;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+/* button styling*/
+div .btn{
+    padding: 10px 90px 10px 90px;
+    border-radius: 25px;
+    display: inline-flexbox;
+    border-color: white;
+}
+
+@media screen and (max-width: 750px)
+{
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body{
+        background:  rgba(84, 16, 174, 0.955) url(./bg-mobile.svg);
+        color: white;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .container{
+        flex-wrap: wrap;
+        padding-left: 15px;
+    }
+    header{
+        margin-top: 35px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+    }
+    header .image {
+        width: 100px;
+    }
+    /*large image styling*/
+    div .large-img{
+        margin-left: 20px;
+    }
+    div .large-img .section-1{
+        width: 290px;
+    }
+    
+    /* text container styling*/
+    .text-container{
+        float: left;
+        text-align:center;
+        color: white;
+        width: 360px;
+        line-height: 25px;
+        padding: 38px;
+    }
+    .text-container .one {
+        font-size: 28px;
+        padding-bottom: 15px;
+    }
+    .text-container .two{
+        font-size: 15px;
+        padding-bottom: 20px;
+        line-height: 20px;
+        font-weight: lighter;
+    }
+    /* button styling*/
+    div .btn{
+        padding: 8px 50px 8px 50px;
+        border-radius: 25px;
+        display: inline-flexbox;
+        border-color: white;
+    }
+    
+
+}
